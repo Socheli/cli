@@ -1,0 +1,32 @@
+{
+  "name": "@socheli/cli",
+  "version": "0.1.1",
+  "description": "Socheli command-line interface — drive your content engine from anywhere.",
+  "type": "module",
+  "bin": {
+    "socheli": "src/index.ts"
+  },
+  "dependencies": {
+    "@socheli/sdk": "^0.1.0",
+    "tsx": "^4.19.2"
+  },
+  "license": "MIT",
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Socheli/cli.git"
+  },
+  "homepage": "https://github.com/Socheli/cli#readme",
+  "bugs": {
+    "url": "https://github.com/Socheli/cli/issues"
+  },
+  "author": "Socheli <contact@socheli.com> (https://socheli.com)",
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
