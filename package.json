@@ -1,6 +1,6 @@
 {
   "name": "@socheli/cli",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Socheli command-line interface — drive your content engine from anywhere.",
   "type": "module",
   "bin": {
@@ -28,5 +28,14 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "keywords": [
+    "socheli",
+    "cli",
+    "content",
+    "video",
+    "ai",
+    "faceless",
+    "automation"
+  ]
 }
